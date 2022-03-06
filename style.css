@@ -1,4 +1,7 @@
-
+body{
+    margin: 0;
+    padding: 0;
+}
 
 .btn{
     width: 94%;
@@ -19,4 +22,64 @@
     text-decoration: none;
 }
 
+.question{
+    width:70%;
+    margin: 30px 150px 25px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: yellowgreen;
+}
+
+.trafsign{
+    display: block;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:chartreuse;
+    justify-content: left;
+    padding: 10px;
+    margin: 30px 150px 25px;
+    text-align:start;
+}
+
+.trafsign p{
+    display: inline;
+    font-size: 25px;
+    height: 200px;
+    padding: 20px;
+} 
+
+.trafsign img{
+    width: 3.5%;
+    height: 3.5%;
+    border: 0;   
+}
+
+.navbar{
+    width: 100%;
+    border: 1px solid orangered;
+    background-color: chocolate;
+    
+}
+.nav{
+    display: flex;
+}
+.nav h3{
+    font-size: 30px;
+    margin-left: 20%;
+    
+}
+
+.nav h3 a{
+    text-decoration: none;
+}
+
+.nav h3:hover{
+    padding: 12px;
+    text-align: center;
+    border: 2px solid orange;
+    border-radius: 5px;
+    background-color: orange;
+}
 
